@@ -1,0 +1,10 @@
+a = input('Enter first number : ')
+b = input('Enter second number : ')
+sum=a+b
+print('sum = ',sum,'datatype of sum =',type(sum))
+sum=int(a)+int(b)
+print('sum = ',sum,'datatype of sum =',type(sum))
+sum=float(sum)
+print('sum = ',sum,'datatype of sum =',type(sum))
+sum=chr(int(sum))
+print('sum = ',sum,'datatype of sum =',type(sum))
